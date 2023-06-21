@@ -3,7 +3,6 @@ const bcrypt = require('bcrypt')
 
 const User = require('../models/userModel')
 const Note = require('../models/noteModel')
-const { ro } = require('date-fns/locale')
 
 //@desc get user list
 //@route GET /users
